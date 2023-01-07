@@ -10,8 +10,8 @@ import java.util.Objects;
  */
 public class Mk4ModuleConfiguration {
     private double nominalVoltage = 12.0;
-    private double driveCurrentLimit = 80.0;
-    private double steerCurrentLimit = 20.0;
+    private double driveCurrentLimit = 48.0;
+    private double steerCurrentLimit = 12.0;
 
     public double getNominalVoltage() {
         return nominalVoltage;

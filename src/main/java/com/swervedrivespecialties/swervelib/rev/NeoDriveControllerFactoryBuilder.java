@@ -54,7 +54,7 @@ public final class NeoDriveControllerFactoryBuilder {
             checkNeoError(motor.setPeriodicFramePeriod(CANSparkMaxLowLevel.PeriodicFrame.kStatus1, 20), "Failed to set periodic status frame 1 rate");
             checkNeoError(motor.setPeriodicFramePeriod(CANSparkMaxLowLevel.PeriodicFrame.kStatus2, 20), "Failed to set periodic status frame 2 rate");
             // Set neutral mode to brake
-            motor.setIdleMode(CANSparkMax.IdleMode.kBrake);
+            motor.setIdleMode(CANSparkMax.IdleMode.kCoast);
 
             // Setup encoder
             RelativeEncoder encoder = motor.getEncoder();

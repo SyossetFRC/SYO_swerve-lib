@@ -7,7 +7,7 @@ sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
 allprojects {
-    group 'com.swervedrivespecialties'
+    group 'com.syossetfrc'
     version '1.1.0'
 
     repositories {

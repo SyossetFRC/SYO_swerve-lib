@@ -7,7 +7,7 @@ import com.syossetfrc.swervelib.DriveController;
 import com.syossetfrc.swervelib.DriveControllerFactory;
 import com.syossetfrc.swervelib.ModuleConfiguration;
 
-import static com.swervedrivespecialties.swervelib.rev.RevUtils.checkNeoError;
+import static com.syossetfrc.swervelib.rev.RevUtils.checkNeoError;
 
 public final class NeoDriveControllerFactoryBuilder {
     private double nominalVoltage = Double.NaN;

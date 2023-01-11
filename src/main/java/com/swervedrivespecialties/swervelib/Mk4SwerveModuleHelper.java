@@ -1,9 +1,9 @@
-package com.swervedrivespecialties.swervelib;
+package com.syossetfrc.swervelib;
 
-import com.swervedrivespecialties.swervelib.ctre.*;
-import com.swervedrivespecialties.swervelib.rev.NeoDriveControllerFactoryBuilder;
-import com.swervedrivespecialties.swervelib.rev.NeoSteerConfiguration;
-import com.swervedrivespecialties.swervelib.rev.NeoSteerControllerFactoryBuilder;
+import com.syossetfrc.swervelib.ctre.*;
+import com.syossetfrc.swervelib.rev.NeoDriveControllerFactoryBuilder;
+import com.syossetfrc.swervelib.rev.NeoSteerConfiguration;
+import com.syossetfrc.swervelib.rev.NeoSteerControllerFactoryBuilder;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardLayout;
 
 public final class Mk4SwerveModuleHelper {

@@ -1,4 +1,6 @@
-package com.swervedrivespecialties.swervelib;
+package com.syossetfrc.swervelib;
+
+import com.revrobotics.RelativeEncoder;
 
 import edu.wpi.first.wpilibj.shuffleboard.BuiltInLayouts;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardLayout;
@@ -55,6 +57,11 @@ public class SwerveModuleFactory<DriveConfiguration, SteerConfiguration> {
         @Override
         public double getSteerAngle() {
             return steerController.getStateAngle();
+        }
+
+        @Override
+        public RelativeEncoder getDriveEncoder() {
+            return driveController.getEncoder();
         }
 
         @Override

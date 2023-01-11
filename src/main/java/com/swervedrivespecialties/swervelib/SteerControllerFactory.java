@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib;
+package com.syossetfrc.swervelib;
 
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardContainer;
 

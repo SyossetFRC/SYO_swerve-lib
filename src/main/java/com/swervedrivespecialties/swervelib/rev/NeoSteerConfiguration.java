@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib.rev;
+package com.syossetfrc.swervelib.rev;
 
 import java.util.Objects;
 

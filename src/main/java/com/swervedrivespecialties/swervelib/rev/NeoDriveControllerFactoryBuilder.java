@@ -1,11 +1,11 @@
-package com.swervedrivespecialties.swervelib.rev;
+package com.syossetfrc.swervelib.rev;
 
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel;
 import com.revrobotics.RelativeEncoder;
-import com.swervedrivespecialties.swervelib.DriveController;
-import com.swervedrivespecialties.swervelib.DriveControllerFactory;
-import com.swervedrivespecialties.swervelib.ModuleConfiguration;
+import com.syossetfrc.swervelib.DriveController;
+import com.syossetfrc.swervelib.DriveControllerFactory;
+import com.syossetfrc.swervelib.ModuleConfiguration;
 
 import static com.swervedrivespecialties.swervelib.rev.RevUtils.checkNeoError;
 
@@ -83,6 +83,11 @@ public final class NeoDriveControllerFactoryBuilder {
         @Override
         public double getStateVelocity() {
             return encoder.getVelocity();
+        }
+
+        @Override
+        public RelativeEncoder getEncoder() {
+            return encoder;
         }
     }
 }

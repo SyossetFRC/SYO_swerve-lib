@@ -1,4 +1,4 @@
-package com.swervedrivespecialties.swervelib;
+package com.syossetfrc.swervelib;
 
 public interface SteerController {
     double getReferenceAngle();

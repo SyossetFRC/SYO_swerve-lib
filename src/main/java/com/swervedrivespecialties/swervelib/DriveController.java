@@ -8,4 +8,6 @@ public interface DriveController {
     double getStateVelocity();
 
     RelativeEncoder getEncoder();
+
+    void setIdleMode(int mode);
 }

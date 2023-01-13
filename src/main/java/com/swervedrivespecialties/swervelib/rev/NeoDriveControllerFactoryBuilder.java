@@ -89,5 +89,15 @@ public final class NeoDriveControllerFactoryBuilder {
         public RelativeEncoder getEncoder() {
             return encoder;
         }
+
+        @Override
+        public void setIdleMode(int mode) {
+            if (mode == 0) {
+                motor.setIdleMode(CANSparkMax.IdleMode.kBrake);
+            }
+            if (mode == 1) {
+                motor.setIdleMode(CANSparkMax.IdleMode.kCoast);
+            }
+        }
     }
 }

@@ -9,5 +9,7 @@ public interface SwerveModule {
 
     RelativeEncoder getDriveEncoder();
 
+    void setIdleMode(int mode);
+
     void set(double driveVoltage, double steerAngle);
 }

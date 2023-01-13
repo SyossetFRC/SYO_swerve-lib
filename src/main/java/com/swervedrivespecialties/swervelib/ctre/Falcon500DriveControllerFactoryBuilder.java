@@ -110,5 +110,8 @@ public final class Falcon500DriveControllerFactoryBuilder {
         public RelativeEncoder getEncoder() {
             return null;
         }
+
+        @Override
+        public void setIdleMode(int mode) {}
     }
 }

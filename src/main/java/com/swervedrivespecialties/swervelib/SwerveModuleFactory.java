@@ -65,7 +65,7 @@ public class SwerveModuleFactory<DriveConfiguration, SteerConfiguration> {
         }
 
         @Override
-        public void getDriveEncoder(int mode) {
+        public void setIdleMode(int mode) {
             driveController.setIdleMode(mode);
         }
 
